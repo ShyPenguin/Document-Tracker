@@ -1,0 +1,30 @@
+.type-info {
+  display: block;
+}
+
+.hope {
+  flex-grow: 1;
+}
+.hope p {
+}
+.type-name {
+  font-weight: bold;
+}
+
+.edit-button,
+.delete-button {
+  padding: 10px 20px;
+  width: 100px;
+  background-color: #3A3E8C;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button {
+  margin-right: 10px;
+}
+
+.hopefully {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,136 @@
+.Search-Date{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Search-Date label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+  }
+
+.Search-Date label{
+    margin-bottom: 4px;
+}
+
+.Search-input label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.Search-input input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+    
+}
+
+.Search-input{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.Search-input button,.Create-button button{
+    padding: 10px 30px 10px 30px;
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 16px;
+    border-style: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3A3E8C;
+    color: white;
+    font-weight: bolder;
+}
+.Search-input button:hover, .Create-button button:hover{
+   opacity: 0.9;
+}
+
+.Create-button{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody td {
+    padding: 10px;
+  }
+  
+  tbody td:first-child {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  tbody td a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  tbody td:hover {
+    background-color: #e0e0e0;
+  }
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .pagination button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination button:first-child {
+    margin-right: 10px;
+  }
+  
+  .pagination button:last-child {
+    margin-left: 10px;
+  }

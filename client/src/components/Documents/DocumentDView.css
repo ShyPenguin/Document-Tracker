@@ -1,0 +1,87 @@
+.document-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea.form-control {
+    resize: vertical;
+  }
+  
+  .form-buttons {
+    text-align: right;
+  }
+  
+  .update-button,
+  .cancel-button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+  }
+  
+  .update-button:hover,
+  .cancel-button:hover {
+    background-color: #3A3E8C;
+  }
+  
+  .update-button:disabled,
+  .cancel-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+
+  .document-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .document-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .document-table td:first-child {
+    font-weight: bold;
+  }
+  
+  .document-table button {
+    padding: 8px 16px;
+    background-color: #3A3E8C;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .document-table button:hover {
+    background-color: #0056b3;
+  }
+  

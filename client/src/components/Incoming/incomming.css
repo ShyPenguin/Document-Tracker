@@ -1,0 +1,77 @@
+.filter {
+  display: flex;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-filter button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  width: 200px;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  background-color: #3A3E8C;
+}
+
+.container-filter button:hover {
+  opacity: 0.9;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.record-section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sender-office {
+  margin-bottom: 10px;
+}
+
+.remarks-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.remarks-textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+}
+
+.record-date {
+  margin-top: 10px;
+}
+
+.button-two {
+  display: flex;
+  gap: 50px;
+}
+
+.button-two button {
+  width: 200px;
+  padding: 10px 15px;
+  border-style: none;
+  cursor: pointer;
+  color: white;
+  background-color: #3A3E8C;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-two button:hover {
+  opacity: 0.9;
+}

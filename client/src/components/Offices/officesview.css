@@ -1,0 +1,36 @@
+.office-table {
+  border-collapse: collapse;
+  width: 500px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.office-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.office-table td a {
+  text-decoration: none;
+}
+
+.office-table td a:hover {
+  text-decoration: underline;
+}
+
+.office-view-button button {
+  padding: 10px 30px 10px 30px;
+  margin-top: 15px;
+  width: 200px;
+  border-radius: 16px;
+  border-style: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3A3E8C;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.office-view-button button:hover {
+  opacity: 0.9;
+}
